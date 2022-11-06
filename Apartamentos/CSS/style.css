@@ -1,1 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');  
+ @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); 
+
+
+/* Reset da pagina para que a mesma permaneça alinhada */
+
+*{
+
+ margin: 0 auto;
+ padding: 0;
+box-sizing:border-box ;
+color: #fff;
+text-align: left;
+border: 20px;
+
+}
+
+.nav {
+    margin: 0 auto;
+    
+    padding: 5%;
+   box-sizing:border-box ;
+   color: #fff;
+   text-align: left;
+   border: 30px;
+}
+
+#Menu ul {
+   /* configuração do Menu*/
+    list-style: none;   /*retirada de marcadores  L 11*/
+    padding: 0;     
+    background-color: rgb(67, 67, 82);
+    display: flex;
+}
+
+/*Linha 20, definimos o tipo de disposição dos textos definidos com li, sendo assim aqui solicita que todos fique na mesma linha */
+ #Menu ul li {
+    display: flex;
+ }
+
+/*cor de fundo da pagina*/
+body{
+
+    background-color: black;
+}
+/* text-decoration: none = a tirar as decoraçoes do texto, exeplo subrinhado*/
+/* display em line deixa na mesma linha*/
+/* padding escolhe o tamanho da area deo menu*/
+/*display : inline-block=torna toda a area que o texto foi inserido um botão clicavel*/
+/* transition realiza um deley na aplicação de cor do comando hover*/
+#Menu ul li  a{
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none ;
+     /*linha   
+     display: inline-block;
+    tempo de resposta ao parar o */
+   
+
+}
+
+/*  Comando responsavel por troca de cor ao passar o mause "houver"*/
+#Menu ul li a:hover{
+    padding: 10px 10px;/* espaçamento interno para cima e baixo 20px, direito e esquerda 15px */
+    background-color: rgb(152, 153, 73);
+}
+#Menu ul li:last-child a {
+   float: right;
+    background-color: rgb(243, 9, 9);
+}
+
+h1{
+   color: #fff;
+   
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    
+}
+p2{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+    margin: 10px;
+    
+}
+
+
+/*
+h2{
+    
+    color: rgb(163, 161, 55);
+    font-size: 40px;
+    background-color: #fff;
+   fonte reserva
+    font-family: 'Fasthand', cursive;
+    color: rgb(163, 161, 55);Cor de titulo
+}
+*/
+h3{
+    
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+
+}
+.img_texto
+{
+    width: 450px ;
+}
+
+.container_0{
+    display: flex;
+    align-items: center;
+}
+.container_0 img {
+    height: 450px;
+    margin: 10px;
+
+}
+.container_1{
+    background-color: rgb(156, 152, 152);
+    display: flex;
+    align-items: center;
+    /*
+    background-color: thistle;
+    background-color: rgb(195, 188, 188);
+    */
+}
+.container_1 .lista ol{
+    /* configuração da lista  */
+    color:#fff;
+    display: flex;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    text-align: center;
+    
+   
+}
+.container_1 img {
+    height: 500px;
+    background-color: #fff;
+    margin: 10px;
+}
+.container_2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(156, 152, 152);
+}
+.container_2 .lista ol{
+    /* configuração da lista  */
+     color:#fff;
+    display: flex;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    text-align: center;
+    
+   
+}
+.container_2 img {
+ 
+    height: 500px;
+    margin: 10px;
+    border: 20px;
+   
+}
+.container_3{
+    display: flex;
+    align-items: center;
+    background-color: rgb(156, 152, 152);
+    
+}
+.container_3 .lista ol{
+    /* configuração da lista  */
+    color:#fff;;
+    display: flex;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    text-align: center;
+    
+   
+}
+.container_3 img {
+    height: 600px;
+    margin: 10px;
+}
+.container_4{
+    display: flex;
+    align-items: center;
+    background-color: rgb(156, 152, 152);
+
+}
+.container_4 .lista ol{
+    /* configuração da lista  */
+    color:#fff;;
+    display: flex;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    text-align: center;
+    
+   
+}
+.container_4 img {
+    height: 450px;
+    margin: 10px;
+
+}
+
+.container_5 p3{
+/* Rodapé */
+   
+   
+    color: rgb(2, 2, 2);
+    margin-top: 30px;
+    align-items: center; 
+    border: 20px;
+}
+.container_5 {
+    /* Rodapé */
+       text-align: center;       
+        width: 100%;
+        height: 300px;
+        color: rgb(2, 2, 2);
+        background-color: #fff;
+        border: 20px;
+        
+    }
+.container_5_img{
+    /* Rodapé */
+        margin: 10px;
+        height: 100px;
+        
+    }
+    .imagens_de_midia{
+        display: flex;       
+        height: 50px;
+        
+        
+    }
 
